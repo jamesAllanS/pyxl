@@ -1,7 +1,7 @@
 # pyxl
 
-pyxl is a simple script for Linux which runs a series of commands in sequence and waits until each app is open until launching the next.
-Useful for cases such as starting all required apps/procs before attempting to load a saved Jack audio connections.
+pyxl is a simple script for Linux which launches a series of x applications (GUI apps) in sequence and waits until each app is open until launching the next.
+Useful for cases such as starting all required apps/procs before attempting to load saved Jack audio connections.
 
 ### Dependencies
 
