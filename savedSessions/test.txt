@@ -1,0 +1,3 @@
+pluma /home/james/github/jamesAllanS/seshm/savedSessions/test.txt
+geany /home/james/github/jamesAllanS/seshm/notes.md
+mate-color-select

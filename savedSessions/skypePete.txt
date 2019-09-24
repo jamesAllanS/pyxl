@@ -1,0 +1,6 @@
+/home/james/github/sonic-pi/bin/sonic-pi
+/home/james/MuseScore-3.2.3-x86_64.AppImage
+obs --profile "Skype" --collection "PeteSkype" --scene "fullscreen cam"
+chromium-browser %U https://trello.com/b/KUCopnNE/notebook https://trello.com/b/IrHsJ5I6/practise-routine,2
+carla /home/james/Dropbox/audio/Skype_Pete.carxp
+/usr/bin/skypeforlinux %U

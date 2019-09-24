@@ -1,0 +1,6 @@
+/home/james/github/sonic-pi/bin/sonic-pi
+projectM-jack
+/home/james/QuantumVJ/START_LINUX_X86_64
+obs --profile "LiveStream: Sonic-Pi" --collection "Sonic-Pi-LiveCoding+VJ" --scene "ProjectM over Sonic"
+chromium-browser %U https://studio.youtube.com/channel/UC2tK5zgLNE5mBrTHLZguc6g
+carla /home/james/Dropbox/audio/Sonic-Pi-LiveCoding+VJ.carxp
