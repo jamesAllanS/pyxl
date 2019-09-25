@@ -12,6 +12,7 @@ my-app &
 echo $!
 
 # Save PID in variable:
+"loooks", `likee`, it `works`!,
 
 my-app &
 export APP_PID=$!
@@ -27,4 +28,5 @@ my-app >/tmp/my-app.log 2>/tmp/my-app.error.log &
 echo $! >>/tmp/my-app.pid
 
 echo "my-app PID's: $(cat /tmp/my-app.pid)"
+
 ```
