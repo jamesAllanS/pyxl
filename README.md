@@ -7,22 +7,23 @@ Useful for cases such as starting all required apps/procs before attempting to l
 
 * Requires python 3.7
 * Requires xdotool
-```
+
+```bash
 sudo apt install xdotool
 ```
 
 ### Usage examples
 
-```
+```bash
 ./pyxl.py SAVEDSESSION.txt
 ```
 or
-```
+```bash
 ./pyxl.py SAVEDSESSION.csv
 ```
 where SAVEDSESSION is the name of your saved session file, which should be a plain text file with each line being the command to run exactly as it appears on the command line.
 So the following commands will open caja in an 800 x 800 window and vs code with the file titled file.txt.
-```
+```bash
 caja -g '800x800'
 code /path/to/your/file.txt
 ```

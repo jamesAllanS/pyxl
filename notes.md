@@ -6,7 +6,6 @@ xdotool search --onlyvisible --class geany windowfocus --sync type --delay 250 '
 xdotool search --onlyvisible --class geany getwindowgeometry --shell
 xdotool search --onlyvisible --pid `pidof geany` # may not work, needs try.
 ```
-
 ## Get PID:
 
 ```bash
@@ -29,4 +28,5 @@ my-app >/tmp/my-app.log 2>/tmp/my-app.error.log &
 echo $! >>/tmp/my-app.pid
 
 echo "my-app PID's: $(cat /tmp/my-app.pid)"
+
 ```

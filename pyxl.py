@@ -3,10 +3,7 @@ from subprocess import Popen, run
 import clientwindow
 import csv
 import sys
-# import os
 import configparser
-import time
-
 
 ############## pyxl - Python X application launcher / manager #######################
 
